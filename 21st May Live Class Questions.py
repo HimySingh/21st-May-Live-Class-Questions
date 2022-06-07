@@ -7,7 +7,9 @@ list1= [23,64,7,1,89,'Gabbar','Basanti', 3.6,64.34, [32,'Him',"Dance"]]
 print(list1[::-1])
 
 # 2.  Try to access 234 out of this list.
+l1 = [3,4,5,6,7 , [23,456,67,8,78,78] , [345,56,87,8,98,9] , (234,6657,6) , {"key1" :"sudh" , 234:[23,45,656]}]
 print(list[7][0])
+print(list(l1[8].keys())[1]) #here first we take out the element from the dict and then we make a list.
 
 # 3 . Try to access 456.
 print(list[5][1])
